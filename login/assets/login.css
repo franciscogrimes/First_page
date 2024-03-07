@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.content {
+  border-radius: 12px;
+  margin: 60px 120px;
+  height: 80vh;
+  background-color: #bf0603;
+}
+.content-itens {
+  /* background-color: blue; */
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.form-itens {
+  padding-right: 10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.input-user {
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  opacity: 0.8;
+}
+.btn-login {
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #001427;
+  font-size: 20px;
+  color: #f4d58d;
+}
+.btn-login:hover {
+  background-color: #708d81;
+  cursor: pointer;
+}
+.login-md {
+  padding-top: 100px;
+}

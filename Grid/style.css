@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: aqua;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content";
+}
+.container > div {
+  background-color: aliceblue;
+  border: 5px solid red;
+}
+.header {
+  grid-area: header;
+  height: 20vh;
+}
+.sidebar {
+  grid-area: sidebar;
+  height: 80vh;
+  width: 15vw;
+}
+.content {
+  grid-area: content;
+  width: 85vw;
+}
