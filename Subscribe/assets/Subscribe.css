@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4a373;
+}
+.data-content {
+  border-radius: 50px;
+  background: #d4a373;
+  box-shadow: 27px 27px 53px #b48b62, -27px -27px 53px #f4bb84;
+  background-color: #faedcd;
+  border-radius: 12px;
+  width: 60vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-content {
+  width: 35vw;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.password-container {
+  position: relative;
+}
+.form-label {
+  padding: 7px 0;
+}
+.form-input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+.phone_with_ddd {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+.form-confirm {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  background-color: #ccd5ae;
+  cursor: pointer;
+}
+.form-confirm:hover {
+  background-color: #e9edc9;
+}
+#btn-password {
+  position: absolute;
+  right: 510px;
+  top: 59.5%;
+  cursor: pointer;
+}
